@@ -1,13 +1,16 @@
 <html>
 <head>
-    <link rel="Stylesheet" type="text/css" href="/css/style.css" />
-    <title>Scarlett</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="Stylesheet" type="text/css" href="/static/style.css" />
+    <link href='//fonts.googleapis.com/css?family=Vollkorn:400italic,400' rel='stylesheet' type='text/css'>
+    <link rel="icon" sizes="16x16 32x32" href="/static/favicon.ico">
+    <title>Scarlett</title>
 </head>
 <body>
-    <a href="/">Index</a> |
-    <hr>
-    <div class="content">
+  <div id="content">
+    <header>
+      <a href="/index"><img src="/static/zenchinese.png" class="logo"/></a>
+    </header>
     
 <p>
 I'm sitting at the Gate Clock Bar at Dublin Aiport with a pint of Guinness in hand.
@@ -196,6 +199,21 @@ You: Sure.
 Jenzen: Stay on the line, I will direct you from my birds-eye view.
 </p>
 
-    </div>
+    <footer>
+      ILUVU.
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/Flowtype.js/1.1.0/flowtype.min.js"></script>
+  <script>
+    $('body').flowtype({
+      minimum: 0,
+      maximum: 1600,
+      minFont: 12,
+      maxFont: 42,
+      fontRatio: 40,
+      lineRatio: 1.45
+    });
+  </script>
 </body>
 </html>
